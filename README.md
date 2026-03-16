@@ -74,7 +74,7 @@ Because the AI "brain" is a **1.5GB Gemma 2B** model, it is not included in this
 
 #### 1. Download the Model
 
-Get the **`gemma-2b-it-cpu-int4`** model from [Hugging Face]([https://huggingface.co/google/gemma-2b-it-cpu-int4](https://huggingface.co/Mejji16/savagestats-gemma/tree/main)).
+Get the **`gemma-2b-it-cpu-int4`** model from [Hugging Face](https://huggingface.co/Mejji16/savagestats-gemma/tree/main).
 
 
 
