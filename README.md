@@ -29,7 +29,6 @@ Daily Log & Weekly View: A sleek horizontal calendar to track your "grind" acros
 
 Device Sync: One-tap integration with Health Connect to automatically pull data from your favorite wearables and apps.
 
-DEMO: 
 ![demo2](https://github.com/user-attachments/assets/b681016c-087a-4533-b124-ab4f42739754)
 
 🚀 How to Run
