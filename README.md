@@ -1,6 +1,11 @@
 # SavageStats 🛡️
 
 
+
+[![Latest Release](https://img.shields.io/github/v/releaseMejji/SavageStats?label=Download%20APK&style=for-the-badge&color=red)](https://github.com/your-username/SavageStats/releases/latest)
+
+
+
 **SavageStats** is an offline-first fitness tracker that uses on-device Large Language Models (LLMs) to provide witty, unfiltered, and data-driven coaching. No cloud, no subscriptions—just local AI that roasts your progress (or lack thereof).
 
 
@@ -55,7 +60,7 @@
 
 If you just want to try the app without building from source:
 
-1. Navigate to the [Releases](https://github.com/your-username/SavageStats/releases) page.
+1. Navigate to the [Releases](https://github.com/Mejji/SavageStats/releases) page.
 
 2. Download the latest `SavageStats_v1.apk`.
 
