@@ -28,7 +28,6 @@ Context-Aware Intelligence: The AI understands your Age, Weight, and specific Fi
 Daily Log & Weekly View: A sleek horizontal calendar to track your "grind" across the week and see your logs stack up.
 
 Device Sync: One-tap integration with Health Connect to automatically pull data from your favorite wearables and apps.
-![demo1](https://github.com/user-attachments/assets/b6094ddf-7588-4138-84e1-e86932862e50)
 
 DEMO: 
 ![demo2](https://github.com/user-attachments/assets/b681016c-087a-4533-b124-ab4f42739754)
