@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.savagestats"
+    namespace = "com.savagestats.app"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -13,11 +13,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.savagestats"
+        applicationId = "com.savagestats.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -58,8 +58,16 @@ dependencies {
     // Navigation
     implementation(libs.androidx.navigation.compose)
 
+    // CameraX
+    implementation("androidx.camera:camera-camera2:1.5.3")
+    implementation("androidx.camera:camera-lifecycle:1.5.3")
+    implementation("androidx.camera:camera-view:1.5.3")
+
+    // ML Kit Custom Image Labeling (food-specific TFLite model)
+    implementation("com.google.mlkit:image-labeling-custom:17.0.3")
+
     // Health Connect
-    implementation("androidx.health.connect:connect-client:1.1.0-alpha07")
+    implementation("androidx.health.connect:connect-client:1.1.0")
 
     // Room
     implementation(libs.androidx.room.runtime)
@@ -68,6 +76,12 @@ dependencies {
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
+
+    // Gson (for Room TypeConverters)
+    implementation(libs.gson)
+
+    // Networking
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

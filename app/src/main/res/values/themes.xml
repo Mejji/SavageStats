@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.SavageStats" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SavageStats" parent="android:Theme.Material.NoActionBar">
+        <!-- Force the OS window background dark so there's no white flash
+             before Compose renders its first frame. -->
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>
