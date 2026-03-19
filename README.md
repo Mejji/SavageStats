@@ -9,8 +9,6 @@
 > **No cloud. No subscriptions. No mercy.**
 > SavageStats is a fully offline AI fitness coach that lives entirely on your phone — tracks your macros, reads your camera, and roasts your lack of discipline with the unfiltered fury of a 528MB language model.
 
-![SavageStats Demo](https://github.com/user-attachments/assets/b681016c-087a-4533-b124-ab4f42739754)
-
 ---
 
 ## Table of Contents
