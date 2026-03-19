@@ -50,6 +50,8 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation("androidx.compose.material3:material3-window-size-class")
+    implementation("androidx.compose.material:material-icons-extended")
     implementation(libs.mediapipe.tasks.genai)
 
     // DataStore
@@ -63,8 +65,8 @@ dependencies {
     implementation("androidx.camera:camera-lifecycle:1.5.3")
     implementation("androidx.camera:camera-view:1.5.3")
 
-    // ML Kit Custom Image Labeling (food-specific TFLite model)
-    implementation("com.google.mlkit:image-labeling-custom:17.0.3")
+    // ML Kit Custom Image Labeling (local .tflite food classifier)
+    implementation("com.google.mlkit:image-labeling-custom:17.0.2")
 
     // Health Connect
     implementation("androidx.health.connect:connect-client:1.1.0")
